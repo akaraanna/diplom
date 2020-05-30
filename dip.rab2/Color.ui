@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainColor</class>
+ <widget class="QMainWindow" name="MainColor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>281</width>
+    <height>447</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Выбор цвета</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../1.PNG</normaloff>../../1.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../2.PNG</normaloff>../../2.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../3.PNG</normaloff>../../3.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../4.PNG</normaloff>../../4.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../5.PNG</normaloff>../../5.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../6.PNG</normaloff>../../6.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../7.PNG</normaloff>../../7.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../10.PNG</normaloff>../../10.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../11.PNG</normaloff>../../11.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../12.PNG</normaloff>../../12.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>16100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Выберите цвет для графика</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../13.PNG</normaloff>../../13.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>16100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../15.PNG</normaloff>../../15.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>16100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../16.PNG</normaloff>../../16.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>16100</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
