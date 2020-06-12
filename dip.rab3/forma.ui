@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>357</width>
-    <height>529</height>
+    <height>570</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,7 +22,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>0</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -40,7 +40,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>80</y>
+      <y>70</y>
       <width>211</width>
       <height>21</height>
      </rect>
@@ -61,7 +61,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>40</y>
+      <y>30</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -84,7 +84,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>110</y>
+      <y>100</y>
       <width>171</width>
       <height>51</height>
      </rect>
@@ -107,7 +107,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>300</y>
+      <y>290</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -127,7 +127,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>280</y>
+      <y>270</y>
       <width>141</width>
       <height>21</height>
      </rect>
@@ -148,7 +148,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>410</y>
+      <y>450</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -168,7 +168,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>380</y>
+      <y>420</y>
       <width>161</width>
       <height>21</height>
      </rect>
@@ -185,11 +185,14 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="start">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>450</y>
+      <x>270</x>
+      <y>490</y>
       <width>51</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Запуск</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
@@ -211,11 +214,14 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="reset">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>450</y>
+      <x>150</x>
+      <y>490</y>
       <width>52</width>
       <height>48</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Сброс</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
@@ -238,10 +244,13 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>450</y>
+      <y>490</y>
       <width>51</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Excel</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
@@ -264,7 +273,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>260</y>
+      <y>250</y>
       <width>361</width>
       <height>20</height>
      </rect>
@@ -277,10 +286,13 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>110</y>
+      <y>100</y>
       <width>61</width>
       <height>61</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Загрязнение</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
@@ -303,10 +315,13 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>20</y>
+      <y>10</y>
       <width>61</width>
       <height>61</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Размерность сетки</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
@@ -329,7 +344,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>380</y>
+      <y>420</y>
       <width>101</width>
       <height>21</height>
      </rect>
@@ -350,7 +365,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>410</y>
+      <y>450</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -373,7 +388,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>200</y>
+      <y>190</y>
       <width>171</width>
       <height>51</height>
      </rect>
@@ -393,7 +408,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>170</y>
+      <y>160</y>
       <width>241</width>
       <height>21</height>
      </rect>
@@ -471,7 +486,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>350</y>
+      <y>370</y>
       <width>151</width>
       <height>21</height>
      </rect>
@@ -488,11 +503,14 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="set_color">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>450</y>
+      <x>260</x>
+      <y>330</y>
       <width>61</width>
       <height>61</height>
      </rect>
+    </property>
+    <property name="toolTip">
+     <string>Цвет графика</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
@@ -509,6 +527,37 @@ p, li { white-space: pre-wrap; }
       <width>40</width>
       <height>40</height>
      </size>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>361</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>340</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Распространение 3D</string>
     </property>
    </widget>
   </widget>
