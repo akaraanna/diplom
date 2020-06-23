@@ -42,7 +42,6 @@ class MyWin(QtWidgets.QMainWindow):
         self.polls=''
         self.biass=''
         self.color='PuRd'
-
         self.formyl=''
         #выводимые поля формы
         self.ui.grid.textChanged.connect(self.KeyPressEvent)
@@ -84,7 +83,6 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.set_color.setEnabled(False)
 
         if(self.ui.checkBox_2.isChecked() == True):
-            print('3d')
             if(self.ui.checkBox.isChecked() == True):
                 self.thread = podschetWithAnimation_3D(self.Uold,self.iter,self.chet,self.nx,self.ny,self.nz)
                 self.thread.finished.connect(self.on_finishedWithAnimation_3D)
@@ -124,7 +122,6 @@ class MyWin(QtWidgets.QMainWindow):
         else :
            print('x')
            self.graffx()
-
 
     def on_finishedWithAnimation(self):
         fig = plt.figure()
@@ -182,7 +179,6 @@ class MyWin(QtWidgets.QMainWindow):
                 x = self.thread.visArrayX[i]
                 y = self.thread.visArrayY[i]
                 
-
                 sf = ax.scatter(x, y, z, s=al,c='r')
                 ims.append([sf])
 
@@ -259,6 +255,7 @@ class MyWin(QtWidgets.QMainWindow):
         self.iter=0
         self.polls=''
         self.biass=''
+	self.formyl=''
         self.ui.poll.setText(self.polls)
         self.ui.bias.setText(self.biass)
         self.ui.grid.setText(' ')
@@ -269,14 +266,15 @@ class MyWin(QtWidgets.QMainWindow):
         self.ui.reset.setEnabled(False)
        
     def excel(self):
+	#необходимо внести корректировки
         wb = xlwt.Workbook()
         ws = wb.add_sheet('diffuzia')
-        if self.ui.radioButton_3.isChecked() == True :
+        if (self.ui.radioButton_3.isChecked() == True and self.slo>0) :
             for i in range(self.nx):
                 for j in range(self.ny):
                     ws.write(i,j,self.Uold[i][j][self.slo])
             
-        elif self.ui.radioButton_2.isChecked() == True :
+        elif (self.ui.radioButton_2.isChecked() == True and self.slo>0) :
             for i in range(self.nx):
                 for k in range(self.nz):
                     ws.write(i,k,self.Uold[i][self.slo][k])

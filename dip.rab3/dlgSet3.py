@@ -23,6 +23,7 @@ class DlgSetLength3(QtWidgets.QMainWindow):
         self.parent().formyl=self.ui.set_Formyl.toPlainText()
         #добавить загрязнение
         if self.ui.set_Formyl.toPlainText():
+	#считываем формулу
             t=False
             for i in self.parent().formyl:
                 if (i=='x'or i=='y'or i=='z'):
