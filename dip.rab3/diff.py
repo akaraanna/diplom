@@ -60,6 +60,7 @@ class MyWin(QtWidgets.QMainWindow):
     
  
     def KeyPressEvent(self):
+	#определяем активность кнопок
         if(self.ui.grid.toPlainText() and self.ui.poll.toPlainText() and self.ui.bias.toPlainText()
            and (self.ui.layer.toPlainText() or self.ui.checkBox_2.isChecked() == True) and self.ui.textEdit_5.toPlainText()):
             self.ui.start.setEnabled(True)
@@ -269,12 +270,14 @@ class MyWin(QtWidgets.QMainWindow):
 	#необходимо внести корректировки
         wb = xlwt.Workbook()
         ws = wb.add_sheet('diffuzia')
-        if (self.ui.radioButton_3.isChecked() == True and self.slo>0) :
+	if (self.slo<0) :
+	    self.slo=self.nx/2
+        if self.ui.radioButton_3.isChecked() == True :
             for i in range(self.nx):
                 for j in range(self.ny):
                     ws.write(i,j,self.Uold[i][j][self.slo])
             
-        elif (self.ui.radioButton_2.isChecked() == True and self.slo>0) :
+        elif self.ui.radioButton_2.isChecked() == True :
             for i in range(self.nx):
                 for k in range(self.nz):
                     ws.write(i,k,self.Uold[i][self.slo][k])
